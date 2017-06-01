@@ -1,7 +1,11 @@
 # Mininim
-Mobile View
+
+##Mobile View
+
 ![Imgur](http://i.imgur.com/DtQfeqF.png)
-Desktop View
+
+##Desktop View
+
 ![Imgur](http://i.imgur.com/tKSjIQ1.png)
 A Clean,minimal and responsive ghost theme for personal us default theme for [Ghost](http://github.com/tryghost/ghost/).
 
@@ -22,15 +26,17 @@ TODO
 	* [Photo type post](post-type-post)
 	
 	
-##Quick start
 
-###Installation
+## Quick start
+
+
+### Installation
 
 access to your ghost theme file direction and clone the theme,go to the panel and activate it
 
 or you can download the release,copy to the theme folder and unzip it.
 
-###Theme compatibility
+### Theme compatibility
 
 The theme is based on Ghosts 1.0.0 alpha which is the master branch of the Ghost repo.
 
@@ -38,13 +44,13 @@ I will go further testing.for now,if you want to use the cover image in the head
 
 Keep watching the repos to received further updates.
  
-##How to use it
+## How to use it
  
-###Add your logo
+### Add your logo
 
 I redesign the logo's location.Now it's on the Nav,you can go to the panel to add the logo
 
-###Photo type post
+### Photo type post
 
 I design a specific layout for photo layout.To activiate it,you add the photo tag on that post and insert **Only One picture in markdown per post**.
 It's look like this.
