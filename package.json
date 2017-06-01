@@ -1,5 +1,5 @@
 {
-    "name": "casper",
+    "name": "Mininim",
     "description": "Clean,minimal and responsive ghost theme for personal use",
     "demo": "",
     "version": "1.0.0",
@@ -33,8 +33,8 @@
     ],
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/alivelee/Mininim"
     },
-    "bugs": "",
-    "contributors": ""
+    "bugs": "https://github.com/alivelee/Mininim/issues",
+    "contributors": "https://github.com/alivelee/Mininim/graphs/contributors"
 }
