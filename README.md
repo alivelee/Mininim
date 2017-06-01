@@ -1,10 +1,10 @@
 # Mininim
 
-##Mobile View
+### Mobile View
 
 ![Imgur](http://i.imgur.com/DtQfeqF.png)
 
-##Desktop View
+### Desktop View
 
 ![Imgur](http://i.imgur.com/tKSjIQ1.png)
 A Clean,minimal and responsive ghost theme for personal us default theme for [Ghost](http://github.com/tryghost/ghost/).
