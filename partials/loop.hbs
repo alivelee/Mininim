@@ -1,0 +1,54 @@
+
+
+{{!-- This is the post loop - each post will be output using this markup --}}
+{{#foreach posts}}
+
+{{^has tag="photo,video,audio"}}
+<article class="{{post_class}}">
+    <img class="feature_image {{#if feature_image}}" src="{{feature_image}} {{else}}no-cover{{/if}}" />
+    <section class="content-wrapper">
+        <header class="post-header">
+            <div>
+                <time class="post-date" datetime="{{date published_at format="MMMM DD, YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
+                <article>{{#if tags}}<i class="fa fa-tag" aria-hidden="true"></i>{{tags}}{{/if}}</article>
+            </div>
+            <h2 class="post-title"><a href="{{url}}">{{title}}</a></h2>
+        </header>
+        <section class="post-excerpt">
+            <p>{{excerpt words="26"}}</p>
+            <a class="read-more" href="{{url}}">Read</a>
+        </section>
+    </section>
+</article>
+{{/has}}
+
+{{#has tag="photo"}}
+    <section class="s-photo-block">
+        <figure class="photo">
+            {{content}}
+            <figcaption>
+                <section class="title">
+                    <h2><a href="{{url}}">{{title}}</a></h2>
+                </section>
+                <section class="share">
+                    <a class="icon-twitter" href="https://twitter.com/intent/tweet?text={{encode title}}&amp;url={{url absolute="true"}}"
+                       onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                        <span class="hidden"><i class="fa fa-twitter" aria-hidden="true"></i></span>
+                    </a>
+                    <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}"
+                       onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                        <span class="hidden"><i class="fa fa-facebook" aria-hidden="true"></i></span>
+                    </a>
+                    <a class="icon-google-plus" href="https://plus.google.com/share?url={{url absolute="true"}}"
+                       onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                        <span class="hidden"><i class="fa fa-google-plus" aria-hidden="true"></i></span>
+                    </a>
+                </section>
+            </figcaption>
+        </figure>
+    </section>
+{{/has}}
+{{/foreach}}
+
+{{!-- Previous/next page links - displayed on every page --}}
+{{pagination}}

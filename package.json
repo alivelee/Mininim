@@ -1,0 +1,40 @@
+{
+    "name": "casper",
+    "description": "Clean,minimal and responsive ghost theme for personal use",
+    "demo": "",
+    "version": "1.0.0",
+    "engines": {
+        "ghost": ">=0.9.0 <1.0.0"
+    },
+    "license": "MIT",
+    "screenshots": {
+        "desktop": "assets/screenshot-desktop.jpg",
+        "mobile": "assets/screenshot-mobile.jpg"
+    },
+    "author": {
+        "name": "Xu Lei",
+        "email": "a871460434@gmail.com",
+        "url": "http://shfront.club/"
+    },
+    "gpm": {
+        "type": "theme",
+        "categories": [
+            "Minimal",
+            "Personal Blogs",
+            "Material Design"
+        ]
+    },
+    "keywords": [
+        "ghost",
+        "theme",
+        "Material Design",
+        "clean",
+        "Minimal"
+    ],
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "bugs": "",
+    "contributors": ""
+}

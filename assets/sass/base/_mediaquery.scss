@@ -1,0 +1,48 @@
+@media (min-width: 768px) {
+  .main-nav {
+    width: 30vw;
+  }
+  .post {
+    width: 800px;
+  }
+  .post-header .post-title {
+    padding: 15px 20px 15px 18px;
+  }
+  .post-excerpt p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  .post-page-article {
+    width: 98vw;
+    .post-content {
+      width: 78%;
+      margin: 5% auto;
+    }
+  }
+  .feature_image {
+    max-width:100%;
+    max-height:500px;
+    object-fit: cover;
+    //width: auto;
+    //height: auto;
+  }
+  .featured {
+    width: 100vw;
+    .content-wrapper {
+      width: 800px;
+      margin: 0 auto;
+    }
+  }
+  .s-photo-block {
+    width: 800px;
+    .title {
+      h2 {
+        font-size: 1.5em;
+        padding: 20px;
+      }
+    }
+  }
+  .s-photo-block .share {
+    padding: 1.5em;
+  }
+}

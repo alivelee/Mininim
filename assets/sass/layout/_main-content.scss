@@ -1,0 +1,14 @@
+body {
+  background: #E3EDF3;
+}
+.content-animated {
+  transform: translate3d(0px,900px,-200px);
+}
+.container {
+
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
