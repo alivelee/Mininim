@@ -15,7 +15,7 @@ To download, visit the [release page](https://github.com/alivelee/Mininim/releas
 
 ## Demo
 
-[The Demo Site](terge.net)
+[The Demo Site](http://terge.net)
 
 ## Contents
  * [Quick Start](#quick-start)
