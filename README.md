@@ -11,11 +11,11 @@ A Clean,minimal and responsive ghost theme for personal us default theme for [Gh
 
 Made By Sass(Scss),Responsive Design,works well on Phones and Desktops,focus on reading.
 
-To download, visit the  page.
+To download, visit the [release page](https://github.com/alivelee/Mininim/releases).
 
 ## Demo
 
-TODO
+[The Demo Site](terge.net)
 
 ## Contents
  * [Quick Start](#quick-start)
@@ -54,7 +54,9 @@ I redesign the logo's location.Now it's on the Nav,you can go to the panel to ad
 
 I design a specific layout for photo layout.To activiate it,you add the photo tag on that post and insert **Only One picture in markdown per post**.
 It's look like this.
-![Imgur](http://i.imgur.com/j0fTqOd.png)
+![Imgur](http://i.imgur.com/q0fJLLq.png)
+![Imgur](http://i.imgur.com/Cc0FHQq.png)
+
 
 ## TODOS
 
