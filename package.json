@@ -2,7 +2,7 @@
     "name": "Mininim",
     "description": "Clean,minimal and responsive ghost theme for personal use",
     "demo": "",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "engines": {
         "ghost": ">=0.9.0 <1.0.0"
     },
